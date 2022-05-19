@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Hierarchy
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 1357
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -73,7 +73,8 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LoadedToolbars: []
+  m_LoadedToolbars:
+  - {fileID: 22}
   m_MainToolbar: {fileID: 22}
   m_LastLoadedLayoutName: 
 --- !u!114 &4
@@ -121,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 579, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 19
+  controlID: 131
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 69
+  controlID: 63
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 70
+  controlID: 64
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -348,23 +349,23 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 1710
-      height: 891
-    m_Scale: {x: 0.61875, y: 0.61875}
-    m_Translation: {x: 855, y: 445.49997}
+      height: 870
+    m_Scale: {x: 0.6041667, y: 0.6041667}
+    m_Translation: {x: 855, y: 435}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1381.8182
+      x: -1415.1724
       y: -720
-      width: 2763.6365
+      width: 2830.3447
       height: 1440
     m_MinimalGUI: 1
-  m_defaultScale: 0.61875
+  m_defaultScale: 0.6041667
   m_LastWindowPixelSize: {x: 1710, y: 891}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -401,7 +402,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 86f6ffff
+      m_ExpandedIDs: 28e8ffff88edffff46eeffff66fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -461,9 +462,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.41622782, y: -1.7740047, z: -8.549083}
+    m_Target: {x: 1.5849203, y: 0.69491935, z: -9.363724}
     speed: 2
-    m_Value: {x: 0.41622782, y: -1.7740047, z: -8.549083}
+    m_Value: {x: 1.5849203, y: 0.69491935, z: -9.363724}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -510,13 +511,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.011058354, y: 0.9816773, z: -0.18047121, w: -0.06015314}
+    m_Target: {x: -0.0020828769, y: 0.99470925, z: -0.10061738, w: -0.020592792}
     speed: 2
-    m_Value: {x: -0.010968109, y: 0.9819465, z: -0.17899844, w: -0.06016964}
+    m_Value: {x: -0.0022669267, y: 0.99452585, z: -0.10210612, w: -0.022081472}
   m_Size:
     m_Target: 7.9435906
     speed: 2
-    m_Value: 8.317896
+    m_Value: 7.9435906
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -690,22 +691,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\trendywalnut\Greenlight-Jam\Greenlight Jam 2022
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 66670000
-    m_LastClickedID: 26470
-    m_ExpandedIDs: 000000006667000000ca9a3b
+    m_SelectedIDs: 5e4b0000
+    m_LastClickedID: 19294
+    m_ExpandedIDs: 00000000fa4a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -733,7 +734,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000fa4a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
